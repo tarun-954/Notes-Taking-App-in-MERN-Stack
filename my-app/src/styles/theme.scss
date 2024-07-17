@@ -1,0 +1,35 @@
+:root{
+    //font sizes 
+    --fs-sm:14px;
+    --fs-md:16px;
+    --fs-lg:18px;
+    --fs-xl:22px;
+    --fs-xxl:28px;
+
+    //font weight
+    --fw-light:400;
+    --fw-normal:500;
+    --fw-mediam:550;
+    --fw-bold:600;
+
+    //border radius
+    --br-sm:5px;
+
+    --black:#3C3D43;
+    --white:#FFFFFF;
+    --rose:#FDBAA3;
+    --red:#F7685C;
+    --green:#30C58D;
+    --cream:#FFFDFA;
+
+
+}
+.light{
+background-color: var(--white);
+
+color:var(--black);
+}
+.dark{
+background-color: var(--black);
+color:var(--white);
+}
