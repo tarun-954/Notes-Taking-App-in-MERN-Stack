@@ -7,13 +7,14 @@ function Form(){
         <section className={styles["form-container"]}>
            
             <BrandLogo />
+            
             <div className={styles.form}>
             <article>
             <Icon icon={"ri:google-fill"} />
             <h3>Join with Google</h3>
             </article>
             <div className={styles.option}>
-            or join anonymously
+           <span> or join anonymously </span>
             </div>
             </div>
         </section>
