@@ -10,6 +10,9 @@ flex-direction: column;
     display: flex;
     margin-top:5px ;
     flex-direction: column;
+
+    border:1px solid green;
+
     article{
         display: flex;
         width: 320px;
@@ -40,16 +43,18 @@ flex-direction: column;
     .option{
         display: flex;
         height: 1px;
-        border: 1px solid var(--grey);
+        border: 1px solid lightgrey;
     align-items: center;
     justify-content: center;
+    color:var(--grey);
     span{
+
         margin: 0 auto;
         position:absolute;
 padding: 0px 5px;
 background-color: var(--white);
 z-index: 1;
-
+color: var(--grey);
     }
 }
 }
