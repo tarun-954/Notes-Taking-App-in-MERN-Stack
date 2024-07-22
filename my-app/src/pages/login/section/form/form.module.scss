@@ -1,7 +1,7 @@
 .form-container{
 display: flex;
 width:100%;
-border:1px solid blue;
+// border:1px solid blue;
 align-items: center ;
 justify-content: center;
 flex-direction: column;
@@ -11,9 +11,9 @@ flex-direction: column;
     margin-top:5px ;
     flex-direction: column;
 
-    border:1px solid green;
+    // border:1px solid green;
 
-    article{
+    .google{
         display: flex;
         width: 320px;
         height: 50px;
@@ -51,11 +51,29 @@ flex-direction: column;
 
         margin: 0 auto;
         position:absolute;
-padding: 0px 5px;
+padding: 0px 30px;
 background-color: var(--white);
 z-index: 1;
-color: var(--grey);
+color:var(--grey);
     }
+}
+
+input{
+   
+    padding :13px 20px;
+  width: 400px;
+    border-radius:8px;
+    margin-top: 20px;
+    font-size: var(--fs-md);
+    border:1px solid var(--grey);
+}
+    .details{
+       display: flex;
+    //  border: 1px solid red;
+     margin-top: 30px;
+       flex-direction: column;
+    
+    
 }
 }
 
