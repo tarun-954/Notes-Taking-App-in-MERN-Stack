@@ -3,23 +3,30 @@
     align-items: center;
     // margin-top: -100px;
 // border:1px solid blue;
+        // border: 3px solid red;
 
     line-height: 1px;
 gap: 10px;
     img{
         width:60px;
         height: 60px;
+        // border: 3px solid blue;
+
     }
         h1{
             display: flex;
             font-size:var(--fs-brand);
             font-weight: var(--fw-bold);
+            // border: 2px solid rgb(217, 255, 0);
 
 
         }
         span{
-            font-weight: 100;
-                    font-style: italic;
+            
+                     font-style: italic;
+        // border: 1px solid red;
+        font-size: 45px;
+        font-weight: 100;
                     
                              
         }

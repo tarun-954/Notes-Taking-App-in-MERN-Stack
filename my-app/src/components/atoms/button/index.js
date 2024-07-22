@@ -1,14 +1,15 @@
 import React from 'react'
 import styles from './button.module.scss';
-
+import {Icon} from '@iconify/react';
 function Button(props){
-    const {text,icon,handleClick,className}=props
+    const {text,icon,handleClick,className,isDisabled}=props
 return (
 
-<article className={styles.google}>
-                    <Icon icon="ri:google-fill" />
-                    <h3>Join with Google</h3>
-                </article>
+<button className={`${styles.button} ${className}`} onClick={handleClick} disabled={isDisabled}>
+                    <Icon icon={icon} />
+                    <h3>{text}</h3>
+                     
+                </button>
                 )
 }
 

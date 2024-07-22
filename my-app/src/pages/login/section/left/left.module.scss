@@ -11,18 +11,21 @@ margin: 0  auto;
 img{
     width: 300px;
    aspect-ratio: 1/1;
+
 }
 div{
     width: 80%;
+    
     h1{
-        line-height: 40px;
-        font-size:30px;;        
+        line-height: 80px;
+        font-size:30px;        
         font-weight: var(--fw-bold);
+     
     }
     p{
         font-size: var(--fs-lg);
         color:var(--grey);
-
+      
     }
 }
 }
