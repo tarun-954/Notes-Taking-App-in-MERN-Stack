@@ -1,0 +1,15 @@
+[
+    {
+        "title":"Home",
+        "icon":"mingcute:home-3-line",
+        "path":"/notes"
+    },
+    {
+    
+        "title":"Add Notes",
+        "icon":"weui:add-filled",
+        "path":"/notes"
+        
+
+    }
+]
