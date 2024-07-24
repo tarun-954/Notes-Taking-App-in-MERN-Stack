@@ -5,19 +5,21 @@ import Loader from "../components/shared/loader";
 import SideBar from "../components/shared/sidebar";
 function Main(){
     return(
+        <main className={styles.container}>
        <Suspense fallback={<Loader />}>
        {/* SideBar */}
        <SideBar />
-       <main className={styles.main}>
+       <div className={styles.main}>
         {/* Navbar */}
         <section className={styles.content}>
             <Outlet />
 
         </section>
 
-       </main>
+       </div>
+       
        </Suspense>
-
+</main>
     )
 }
 export default Main;
