@@ -1,13 +1,13 @@
 [
     {
         "title":"Home",
-        "icon":"mingcute:home-3-line",
+        "icon":"clarity:house-solid",
         "path":"/notes"
     },
     {
     
         "title":"Add Notes",
-        "icon":"weui:add-filled",
+        "icon":"lets-icons:add-light",
         "path":"/notes"
         
 

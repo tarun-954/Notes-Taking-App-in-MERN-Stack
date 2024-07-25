@@ -9,10 +9,13 @@ function SideBar(){
         <aside className={styles.sidebar}>
             <BrandLogo logoOnly={true} type={"dark"} className={styles.logo} />
             <section>
+              
             {SidebarItems.map((item,index)=>{
+                  return (
                 <article key={index} className={styles.item}>
-                    <Icon icon={item.icon} />
+                    <Icon icon={item.icon} color={index===1 ? "var(--grey)" :"var(--white)"} />
                 </article>
+                  );
             })}
             </section>
             <article className={styles.logout}>

@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import styles from "./layout.module.scss";
 import Loader from "../components/shared/loader";
 import SideBar from "../components/shared/sidebar";
+import Navbar from "../components/shared/navbar";
 function Main(){
     return(
         <main className={styles.container}>
@@ -11,6 +12,7 @@ function Main(){
        <SideBar />
        <div className={styles.main}>
         {/* Navbar */}
+        <Navbar />
         <section className={styles.content}>
             <Outlet />
 
