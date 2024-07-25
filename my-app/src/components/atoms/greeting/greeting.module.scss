@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    padding: 50px 0px 40px;
+    flex-direction: column;
+
+    h2{
+        font-size: var(--fs-greeting);
+        font-weight: var(--fw-medium) !important;
+        font-family:"Ubuntu",sans-serif;
+
+        span{
+            font-size: var(--fs-greeting);
+            font-weight: var(--fw-bold); font-family: "Ubuntu",sans-serif;
+        }
+    }
+    p{
+        line-height: 30px;
+        color:#4D4D4D;
+        font-size: var(--fs-md);
+    }
+}
