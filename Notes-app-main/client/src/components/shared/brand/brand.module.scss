@@ -1,0 +1,20 @@
+.brand{
+    display: flex;
+    align-items: center;
+
+    img{
+        height: 65px;
+        width: 65px;
+    }
+
+    h1{
+        display: flex;
+        font-size: var(--fs-brand);
+
+        span{
+            font-weight: 200;
+            font-size: inherit;
+            font-style: italic;
+        }
+    }
+}

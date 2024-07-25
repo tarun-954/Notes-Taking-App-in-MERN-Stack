@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    // padding: 70px 0 40px;
+
+    h1 {
+        font-size: 34px;
+        font-weight: var(--fw-light);
+        
+        span {
+            font-size: 34px;
+            font-weight: var(--fw-bold);
+        }
+    }
+
+    p {
+        font-size: var(--fs-lg);
+        font-weight: var(--fw-light);
+    }
+}

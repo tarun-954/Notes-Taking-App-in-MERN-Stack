@@ -1,0 +1,54 @@
+.container {
+    display: grid;
+    width: 100%;
+    aspect-ratio: 5/4;
+    border: 1px solid var(--black);
+    border-radius: 5px;
+    padding: 15px;
+    grid-template-rows: auto 25px;
+    gap: 15px;
+    background-color: var(--yellow);
+
+    .content {
+        p {
+            display: -webkit-box;
+            overflow: hidden;
+            line-clamp: 5;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            line-height: 20px;
+            font-size: var(--fs-md);
+            font-weight: var(--fw-normal);
+        }
+
+        .expanded {
+            display: block;
+        }
+
+        .textarea {
+            height: 100%;
+            background-color: transparent;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: transparent;
+            font-size: var(--fs-sm);
+            font-weight: var(--fw-light);
+            text-decoration: underline;
+        }
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        font-size: var(--fs-sm);
+        font-weight: var(--fw-light);
+
+        .saveBtn {
+            width: 50px;
+            height: 25px;
+            cursor: pointer;
+        }
+    }
+}

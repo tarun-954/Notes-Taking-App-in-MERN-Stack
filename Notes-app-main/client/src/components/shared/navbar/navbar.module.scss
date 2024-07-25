@@ -1,0 +1,39 @@
+.header {
+    display: grid;
+    width: 100%;
+    padding: 30px 6rem 10px 6rem;
+    grid-template-columns: auto 60px;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+
+    .search-bar {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    svg {
+        height: 30px;
+        width: 30px;
+        display: flex;
+        color: var(--grey);
+    }
+    
+    .field {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+        input{
+            font-size: var(--fs-md);
+            border: none;
+            padding: 15px 15px 5px 15px;
+        }
+    }
+
+    .theme {
+        cursor: pointer;
+    }
+}
