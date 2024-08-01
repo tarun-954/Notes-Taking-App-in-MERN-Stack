@@ -7,6 +7,7 @@ function Wrapper(BaseComponent){
             <div className={styles.wrapper}>
         <BaseComponent {...props} />
         </div>
+        
     
 );
     };

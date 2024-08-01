@@ -1,9 +1,23 @@
 .container{
-    display: flex;
+    display: grid;
     width: 100%;
-    aspect-ratio: 1/1;
-    flex-direction: column;
+    aspect-ratio: 7/7;
     border-radius:10px ;
-    border: 1px solid red;
-   
+    // border: 1px solid red;
+    background-color:#FBEB9566;
+    padding: 10px;
+    grid-template-rows:auto 25px;
+    
+        p{
+font-size: var(--fs-md);
+font-weight: var(--fw-bold);
+line-height: 25px;
+color:#3C3D43;
+
+        }
+    
+    .footer{
+font-size: var(--fs-sm);
+color:var(--grey);
+    }
 }

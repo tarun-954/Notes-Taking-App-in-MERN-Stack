@@ -51,7 +51,7 @@ flex-direction: column;
         // border: 1px solid red;
 
         margin: 0 auto;
-        position:absolute;
+        position:relative;
 padding: 0px 30px;
 background-color: var(--white);
 z-index: 1;
@@ -81,9 +81,7 @@ input{
     background-color: #30C58D;
     color: var(--white);
     gap: 10px;
-  
-    
-
+   
 }
 
 }

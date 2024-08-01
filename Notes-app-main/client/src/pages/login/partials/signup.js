@@ -14,7 +14,7 @@ function Signup(props) {
     const [name, setName] = React.useState('');
 
     const handleSignup = () => {
-        if (!email.length && !password.length && !name.length) toast.error('All fields are required');
+        if (!email.length || !password.length || !name.length) toast.error('All fields are required');
         fetch('http://localhost:3001/api/users/signup', {
             method: 'POST',
             headers: {

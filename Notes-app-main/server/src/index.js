@@ -4,7 +4,7 @@ require('./db');
 const cors = require('cors');
 // const bodyParser = require('body-parser');
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3003;
 
 const express = require('express');
 const app = express();
