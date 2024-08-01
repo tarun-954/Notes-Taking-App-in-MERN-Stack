@@ -1,26 +1,27 @@
 [
     {
         "id":1,
-        "text":"This is how a Note on Note.me looks like! Very simple, clean and asthetic! 😍 ",
-        "color":"#FBEB9566",
+        "text":"This is how a Note on Note.me looks like! Very simple, clean and asthetic! 😍 This is how a Note on Note.me looks like! Very simple, clean and asthetic! 😍 😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍",
+        "color":"rgb(239, 90, 111, 0.3)",
         "createdAt":"2024-08-01T06:17:55.222Z"
     },
     {
-        "id":1,
+        "id":2,
         "text":"This is how a Note on Note.me looks like! Very simple, clean and asthetic! 😍 ",
-        "color":"#97D2BC66",
+        "color":"rgb(255, 241, 219, 0.6)",
                 "createdAt":"2024-08-01T06:17:55.222Z"
     },
     {
-        "id":1,
+        "id":3,
         "text":"This is how a Note on Note.me looks like! Very simple, clean and asthetic! 😍 ",
-        "color":"#FDBAA366",
+        "color":"rgb(212, 189, 172, 0.5)",
         "createdAt":"2024-08-01T06:17:55.222Z"
     },
     {
-        "id":1,
+        "id":4,
         "text":"This is how a Note on Note.me looks like! Very simple, clean and asthetic! 😍 ",
-        "color":"#FBEB9566",
+        "color":"rgb(83, 100, 147,0.4)",
+
         "createdAt":"2024-08-01T06:17:55.222Z"
     }
 ]
