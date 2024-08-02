@@ -14,10 +14,10 @@
             font-size: var(--fs-md);
             font-weight: var(--fw-normal);
             line-height: 25px;
-            overflow: hidden;
+            overflow:hidden;
             color: #3c3d43;
             -webkit-box-orient: vertical;
-            -webkit-line-clamp: 5;
+            -webkit-line-clamp: 4;
             display: -webkit-box;
         }
         
@@ -26,9 +26,12 @@
         }
 
         button {
+            cursor: pointer;
             color: var(--grey);
             background-color: transparent;      
             cursor: pointer;
+            line-height: 30px;
+            // text-transform: capitalize;
         }
     }
 
