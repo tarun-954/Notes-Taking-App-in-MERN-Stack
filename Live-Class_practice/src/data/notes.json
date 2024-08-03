@@ -13,7 +13,7 @@
     },
     {
         "id":3,
-        "text":"This is how a Note on Note.me looks like! Very simple, clean and asthetic! 😍 ",
+        "text":"This is how a Note on Note.me looks like! Very simple, clean and asthetic! 😍 This is how a Note on Note.me looks like! Very simple, clean and asthetic 😍😍😍😍😍😍😍😍😍😍😍",
         "color":"rgb(212, 189, 172, 0.5)",
         "createdAt":"2024-08-01T06:17:55.222Z"
     },
@@ -21,7 +21,6 @@
         "id":4,
         "text":"This is how a Note on Note.me looks like! Very simple, clean and asthetic! 😍 ",
         "color":"rgb(83, 100, 147,0.4)",
-
         "createdAt":"2024-08-01T06:17:55.222Z"
     }
 ]

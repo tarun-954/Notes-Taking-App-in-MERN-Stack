@@ -4,7 +4,9 @@ import styles from "./layout.module.scss";
 import Loader from "../components/shared/loader";
 import SideBar from "../components/shared/sidebar";
 import Navbar from "../components/shared/navbar";
+
 function Main(){
+
     return(
         <main className={styles.container}>
        <Suspense fallback={<Loader />}>

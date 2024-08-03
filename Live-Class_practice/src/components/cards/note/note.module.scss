@@ -1,12 +1,12 @@
 .container {
-    display: grid;
+    display:grid;
     width: 100%;
   
     aspect-ratio: 5/4;
     border-radius: 20px;
     // border: 2px solid red;
     background-color: #FBEB9566;
-    padding: 20px;
+    padding: 15px;
     grid-template-rows: auto 35px;
 
     .content {
@@ -24,7 +24,7 @@
         .expanded {
             display: block;
         }
-
+    
         button {
             cursor: pointer;
             color: var(--grey);

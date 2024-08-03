@@ -7,8 +7,9 @@
 
 
 main{
-    display: flex; 
+    display: grid; 
 gap:30px;
+align-items: start;
 grid-template-columns:repeat(4,1fr);
 // border: 1px solid rgb(0, 132, 255);
 
