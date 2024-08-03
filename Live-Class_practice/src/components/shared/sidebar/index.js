@@ -15,7 +15,7 @@ function SideBar(){
         let updatedData=[
             {
                 id:data.length + 1,
-              color:"rgb(148, 255, 216)",
+              color:"rgb(120, 193, 243)",
               text:"",
               createdAt:new Date().toISOString(),
           

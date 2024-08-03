@@ -8,9 +8,10 @@ import utils from "../../utils/localstorage";
 import types from "../../config/types";
 function Notes(){
   const [NotesColl,setNotesColl]=useState([]);
-  useEffect(()=>{
 const data=utils.getFromLocalStorage(types.NOTES_DATA);
-console.log({data})
+
+  useEffect(()=>{
+
 if(data && data.length)
 {
   setNotesColl(data);
@@ -21,8 +22,8 @@ console.log("fetching from local storage");
     utils.addToLocalStorage(types.NOTES_DATA,notesData);
     setNotesColl(notesData);
   },
-[]);
-console.log({NotesColl});
+[data]);
+
     return (
        <section className={styles.container}>
      <Greeting />

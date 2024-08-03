@@ -5,15 +5,33 @@ import { formatDate } from "../../../utils/formatDate";
 function Note(props) {
     const { text, date, color } = props;
     const [expand, setExpand] = useState(false); // Correct usage
+    const [noteText,setNoteText] = useState("");
+
     
     return (
         <article className={styles.container} style={{ backgroundColor: color }}>
             <div className={styles.content}>
-                <p className={expand ? styles.expanded : ""}>{text.substring(0,10000000000)}</p>           
-                {text.length> 120 ? <button onClick={() => setExpand((prev) => !prev)}>
+                {
+                    !text.length? 
+                    (
+                    <textarea 
+                    value ={noteText}
+                    className={styles.textarea}
+                    onChange={(e)=>setNoteText(e.target.value)}
+                    
+                    /> 
+                
+                ) : ( 
+                    <>
+                   
+                
+                <p className={expand ? styles.expanded : ""}>{text}</p>           
+                {text.length> 120 ? (<button onClick={() => setExpand((prev) => !prev)}>
                     {expand ? "read less" : "read more"}
                 </button>
-                : null }
+                ): null }
+                </>
+                    )}
             </div>
             <footer className={styles.footer}>
                 {formatDate(date)}

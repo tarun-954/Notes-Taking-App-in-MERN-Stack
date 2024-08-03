@@ -13,18 +13,23 @@
         p {
             font-size: var(--fs-md);
             font-weight: var(--fw-normal);
-            line-height: 25px;
+            line-height:25px;
             overflow:hidden;
+            // width: 170px;
             color: #3c3d43;
             -webkit-box-orient: vertical;
-            -webkit-line-clamp: 4;
+            -webkit-line-clamp: 5;
             display: -webkit-box;
+
         }
         
         .expanded {
             display: block;
         }
-    
+    .textarea{
+        height: 100%;
+        background-color: transparent;
+    }
         button {
             cursor: pointer;
             color: var(--grey);

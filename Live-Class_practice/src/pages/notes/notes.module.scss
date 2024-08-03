@@ -1,17 +1,21 @@
-.container{
+.container {
     display: flex;
- 
-
-   width:  100%;
+    width: 100%;
     flex-direction: column;
 
+    main {
+        display: grid;
+        gap: 30px;
+        align-items: start;
+        grid-template-columns: repeat(4, 1fr);
 
-main{
-    display: grid; 
-gap:30px;
-align-items: start;
-grid-template-columns:repeat(4,1fr);
-// border: 1px solid rgb(0, 132, 255);
+        @media screen and (max-width: 800px) {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 5px;
+            width: 100% ;
+        }
+      
 
-}
+        
+    }
 }
