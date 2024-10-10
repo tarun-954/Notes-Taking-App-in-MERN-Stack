@@ -1,0 +1,49 @@
+.container {
+    display:grid;
+    width: 100%;
+  
+    aspect-ratio: 5/4;
+    border-radius: 20px;
+    // border: 2px solid red;
+    background-color: #FBEB9566;
+    padding: 15px;
+    grid-template-rows: auto 35px;
+
+    .content {
+        p {
+            font-size: var(--fs-md);
+            font-weight: var(--fw-normal);
+            line-height:25px;
+            overflow:hidden;
+            // width: 170px;
+            color: #3c3d43;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 4;
+            display: -webkit-box;
+
+        }
+        
+        .expanded {
+            display: block;
+        }
+    .textarea{
+        height: 100%;
+        background-color: transparent;
+    }
+        button {
+            cursor: pointer;
+            color: var(--grey);
+            background-color: transparent;      
+            cursor: pointer;
+            line-height: 30px;
+            // text-transform: capitalize;
+        }
+    }
+
+    footer {
+        font-size: var(--fs-sm);
+        color: var(--grey);
+        display: flex;
+        align-items: center;
+    }
+}
